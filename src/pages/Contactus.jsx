@@ -1,105 +1,14 @@
 import React from 'react';
 import contact from '../assets/contact.jpg';
+import Contacthero from '../components/Contacthero';
+import Contactcontent from '../components/Contactcontent';
 
 export default function Contactus() {
-  return (
-    <>
-      {/* Hero Section */}
-      <section className="relative w-full h-[60rem]">
-        <div className="absolute inset-0">
-          <img
-            src={contact}
-            alt="Registration Watermark"
-            className="h-full w-full object-cover opacity-40"
-          />
-          <div className="absolute inset-0 bg-black opacity-80" />
-        </div>
-        <div className="relative z-10 flex items-center justify-center h-full px-4 text-center">
-          <h1 className="text-white font-extrabold font-serif text-[4rem] lg:text-[8rem] leading-none">
-            Contact Us
-          </h1>
-        </div>
-      </section>
+    return (
+        <>
 
-      {/* Contact Info & Map */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8">
-        <div className="flex flex-col items-center gap-12 max-w-4xl mx-auto text-gray-800">
-
-          {/* Team Contacts - Moved to Top */}
-          <div className="w-full text-left space-y-6">
-            <h2 className="text-3xl font-extrabold text-gray-900 underline underline-offset-4 decoration-gray-700 mb-4">
-              👥 Meet the Secretariat
-            </h2>
-
-            {/* Smriti */}
-            <div>
-              <p className="text-lg font-semibold text-gray-800">Smriti Mukherjee</p>
-              <p className="text-gray-600 italic mb-1">Secretary-General</p>
-              <p className="text-gray-700">📧 smriti.mukherjee03@gmail.com</p>
-              <p className="text-gray-700">📞 +91 99931 98924</p>
-            </div>
-
-            {/* Harsh */}
-            <div>
-              <p className="text-lg font-semibold text-gray-800">Harsh Deshpande</p>
-              <p className="text-gray-600 italic mb-1">Director-General</p>
-              <p className="text-gray-700">📧 contact.harsh1807@gmail.com</p>
-              <p className="text-gray-700">📞 +91 74000 38224</p>
-            </div>
-          </div>
-
-          {/* Other Contact Info */}
-          <div className="w-full text-left space-y-10">
-
-            {/* Our Location */}
-            <div>
-              <h2 className="text-3xl font-extrabold underline underline-offset-4 decoration-gray-700 mb-2">📍 Our Location</h2>
-              <p className="text-lg text-gray-600">
-                Get in touch with us or visit our venue.
-              </p>
-            </div>
-
-            {/* Address */}
-            <div className="border-t border-gray-300 pt-4">
-              <h3 className="text-xl font-bold underline underline-offset-4 decoration-gray-700 mb-2">Address</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Indore-Ujjain Road, Gram Baroli, Indore <br />
-                Madhya Pradesh, India
-              </p>
-            </div>
-
-            {/* Phone */}
-            <div className="border-t border-gray-300 pt-4">
-              <h3 className="text-xl font-bold underline underline-offset-4 decoration-gray-700 mb-2">Phone</h3>
-              <div className="space-y-1 text-gray-700">
-                <p>+91 99931 98924</p>
-                <p>+91 74000 38224</p>
-              </div>
-            </div>
-
-            {/* Email */}
-            <div className="border-t border-gray-300 pt-4">
-              <h3 className="text-xl font-bold underline underline-offset-4 decoration-gray-700 mb-2">Email</h3>
-              <p className="text-gray-700">svvvimun9.0@gmail.com</p>
-            </div>
-          </div>
-
-          {/* Google Map */}
-          <div className="w-full flex justify-center items-center">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.3998136856867!2d75.84705207568042!3d22.824692979312985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963039c587a8091%3A0x206d00d7a5e4afb3!2sShri%20Vaishnav%20Vidyapeeth%20Vishwavidyalaya%20(SVVV)!5e0!3m2!1sen!2sin!4v1755713879375!5m2!1sen!2sin"
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              className="rounded-2xl shadow-xl max-w-[800px] w-full"
-              title="SVVV Location Map"
-            ></iframe>
-          </div>
-
-        </div>
-      </section>
-    </>
-  );
+            <Contacthero />
+            <Contactcontent />
+        </>
+    );
 }
