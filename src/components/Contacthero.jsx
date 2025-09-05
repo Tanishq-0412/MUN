@@ -3,7 +3,7 @@ import contact from '../assets/contact.jpg'
 export default function Contacthero() {
   return (
     <div>
-      <section className="relative w-full h-[60rem]">
+      <section className="relative w-full h-screen ">
               <div className="absolute inset-0">
                 <img
                   src={contact}
@@ -13,7 +13,7 @@ export default function Contacthero() {
                 <div className="absolute inset-0 bg-black opacity-80" />
               </div>
               <div className="relative z-10 flex items-center justify-center h-full px-4 text-center">
-                <h1 className="text-white font-extrabold font-serif text-[4rem] lg:text-[8rem] leading-none">
+                <h1 className="text-white  text-center   text-[4.8rem]    md:text-[8rem] lg:text-[13rem] md:text-[13rem]">
                   Contact Us
                 </h1>
               </div>

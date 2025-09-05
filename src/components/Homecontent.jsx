@@ -4,7 +4,7 @@ import image from '../assets/image.png'
 export default function Homecontent() {
   return (
     <div>
-      <section className="bg-white py-16 px-6">
+      <section className="bg-white py-10 sm:py-10 xl:py-16 md:py-16 lg:py-16  px-6">
               <div className="relative w-full">
       
                 <div className="flex justify-center items-center">
@@ -16,9 +16,9 @@ export default function Homecontent() {
                 </div>
       
       
-                <div className="absolute top-1/4 left-0 w-full flex justify-center">
+                <div className="absolute top-2 md-top-10 lg:top-10 xl:top-10 left-0 w-full flex justify-center">
                   <div className="max-w-4xl mx-auto text-center px-4">
-                    <p className="text-base lg:text-xl text-black font-semibold leading-relaxed bg-white/10 p-3 rounded-lg">
+                    <p className="text-base !font-[roboto] lg:text-xl text-black font-semibold leading-relaxed bg-white/10 p-3 rounded-lg">
                       Step into the Realm of Diplomacy, Dialogue, and Decision-Making with SVVVIMUN 2025 —
                       a premier platform where aspiring leaders broaden their global outlook, refine the art of negotiation,
                       and collaborate to shape a more impactful and inclusive future.
@@ -27,7 +27,7 @@ export default function Homecontent() {
                 </div>
               </div>
       
-              <div className="max-w-5xl mx-auto text-center">
+              <div className="max-w-5xl mx-auto  mt-10 text-center">
       
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                   About the Event

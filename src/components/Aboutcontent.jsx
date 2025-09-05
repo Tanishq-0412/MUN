@@ -24,7 +24,7 @@ export default function Aboutcontent() {
               Why SVVV International MUN?
             </h2>
 
-            <div className="text-lg leading-relaxed text-gray-700 space-y-6 text-justify">
+            <div className="text-lg leading-relaxed text-gray-700 space-y-6 text-center">
               <p>
                 Step into a space where diplomacy knows no boundaries, where young leaders rise as architects of change,
                 and where dialogue builds bridges across nations. The Shri Vaishnav Vidyapeeth Vishwavidyalaya International
@@ -71,7 +71,7 @@ export default function Aboutcontent() {
               className="h-62 w-auto opacity-25 "
             />
           </div>
-          <div className=" text-justify relative z-10 max-w-5xl mx-auto text-center px-4">
+          <div className="  relative z-10 max-w-5xl mx-auto text-center px-4">
             <h2 className="text-4xl font-extrabold text-gray-800 mb-6 border-b-4 inline-block border-black-400 pb-2">
               About Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)
             </h2>

@@ -3,13 +3,13 @@ import React from 'react'
 export default function Participatecontent() {
   return (
     <div>
-       <section className="bg-white px-24 py-20 space-y-16 text-justify">
+       <section className="bg-white px-10 py-16 space-y-10 text-left ">
 
                 <div>
-                    <h2 className="text-4xl font-bold text-gray-800 mb-4 border-b-4 inline-block border-black pb-2">
+                    <h2 className="text-4xl font-bold text-gray-800 inline-block mb-4 border-b-4  border-black pb-2">
                         Rules of Participation
                     </h2>
-                    <ul className="list-disc ml-5 space-y-2 text-gray-700 text-lg">
+                    <ul className="list-disc font-[roboto] ml-5 space-y-2 text-gray-700 text-lg">
                         <li>A delegate may participate in only one committee.</li>
                         <li>Delegates must be available for all three days of the conference (28–30 October, 2025).</li>
                         <li>The participation fee is ₹1700/- per delegate (Phase-II).</li>
@@ -23,7 +23,7 @@ export default function Participatecontent() {
                     <h2 className="text-4xl font-bold text-gray-800 mb-4 border-b-4 inline-block border-black pb-2">
                         Who Can Participate
                     </h2>
-                    <ul className="list-disc ml-5 space-y-2 text-gray-700 text-lg">
+                    <ul className="list-disc font-[roboto] ml-5 space-y-2 text-gray-700 text-lg">
                         <li>Open to all students from schools, colleges, and organizations.</li>
                         <li>No age restrictions — anyone with a passion for diplomacy and debate is welcome.</li>
                     </ul>
@@ -38,7 +38,7 @@ export default function Participatecontent() {
                         At SVVVIMUN 2025, delegates are expected to uphold the highest standards of professionalism,
                         mirroring the decorum of the United Nations. By registering, you agree to the following commitments:
                     </p>
-                    <ul className="list-disc ml-5 space-y-2 text-gray-700 text-lg">
+                    <ul className="list-disc ml-5 font-[roboto] space-y-2 text-gray-700 text-lg">
                         <li><strong>Integrity & Authenticity:</strong> Submit accurate information. Plagiarism/fraud leads to disqualification.</li>
                         <li><strong>Respect & Courtesy:</strong> Professional behavior toward everyone is mandatory.</li>
                         <li><strong>Diversity & Inclusion:</strong> No discrimination or harassment tolerated.</li>
@@ -59,7 +59,7 @@ export default function Participatecontent() {
                     <h2 className="text-4xl font-bold text-gray-800 mb-4 border-b-4 inline-block border-black pb-2">
                         Cancellation Policy
                     </h2>
-                    <ul className="list-disc ml-5 space-y-2 text-gray-700 text-lg">
+                    <ul className="list-disc ml-5 font-[roboto] space-y-2 text-gray-700 text-lg">
                         <li>If the event is canceled by the organizers, delegates will receive a 100% refund.</li>
                         <li>If a delegate cancels their participation, no refunds will be issued.</li>
                         <li>SVVVIMUN will not be responsible for any travel or accommodation compensation.</li>

@@ -4,7 +4,7 @@ import regi from '../assets/registrtaion.jpg'
 export default function Participatehero() {
   return (
     <div>
-         <section className="relative w-full h-[60rem]">
+         <section className="relative w-full h-screen">
                       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
                           <img
                               src={regi}
@@ -14,7 +14,7 @@ export default function Participatehero() {
                       </div>
                       <div className="absolute inset-0 bg-black opacity-80"></div>
                       <div className="absolute inset-0 flex items-center justify-center px-4 text-center">
-                          <h1 className="text-white font-extrabold font-serif text-[4rem]  lg:text-[8rem] leading-none">
+                          <h1 className="text-white  text-center   text-[5rem]    md:text-[8rem] lg:text-[11rem] md:whitespace-nowrap md:text-[11rem]">
                               How To Participate
                           </h1>
                       </div>
