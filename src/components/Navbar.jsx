@@ -69,6 +69,15 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/participate" className="text-white hover:text-blue-300 text-lg transition">
+              Photo Wall
+            </Link>
+          </li><li>
+            <Link to="/participate" className="text-white hover:text-blue-300 text-lg transition">
+              Leader Board
+            </Link>
+          </li>
+          <li>
             <Link to="/contactus" className="text-white hover:text-blue-300 text-lg transition">
               Contact Us
             </Link>
@@ -96,7 +105,7 @@ export default function Navbar() {
       </div>
     
     </nav>
-    <div className={`fixed left-0 w-full h-full bg-black/40 backdrop-blur-sm bg-opacity-80 z-50 flex flex-col items-center justify-center transition-transform duration-300 ${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} md:hidden`} style={{ pointerEvents: showMobileMenu ? 'auto' : 'none' }}>
+    <div className={`fixed inset-0 left-0 w-screen h-screen bg-black/40 backdrop-blur-sm bg-opacity-80 z-50 flex flex-col items-center justify-center transition-transform duration-300 ${showMobileMenu ? 'translate-x-0' : '-translate-x-full'} md:hidden`} style={{ pointerEvents: showMobileMenu ? 'auto' : 'none' }}>
           <button onClick={handleBurgerClick} className="absolute top-6 right-6 text-white text-6xl focus:outline-none">&times;</button>
           <ul className="flex flex-col font-[roboto] space-y-8 text-center">
             <li>
@@ -107,6 +116,12 @@ export default function Navbar() {
             </li>
             <li>
               <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Participate</Link>
+            </li>
+             <li>
+              <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Wall</Link>
+            </li>
+             <li>
+              <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Leaderboard</Link>
             </li>
             <li>
               <Link to="/contactus" className="text-white text-3xl" onClick={handleBurgerClick}>Contact Us</Link>

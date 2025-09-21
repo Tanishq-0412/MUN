@@ -3,7 +3,13 @@
   font-family: "times";
   src: url("./fonts/times.ttf");
 }
-
+@font-face {
+  font-family: "Antonio";
+  src: url("./fonts/Antonio-VariableFont_wght.ttf");
+}
+.antonio{
+  font-family: "Antonio";
+}
 .font-times {
   font-family:  "times", serif;
 }

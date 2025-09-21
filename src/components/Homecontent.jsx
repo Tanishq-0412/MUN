@@ -54,7 +54,7 @@ export default function Homecontent() {
                   empower, and prepare future leaders to become catalysts for global change.
                 </p>
                 <p className="text-gray-700 font-semibold leading-relaxed">
-                  The future of diplomacy begins here — with you — at SVVVIMUN 2025.
+                  The future of diplomacy begins here with you at — SVVVIMUN 2025.
                 </p>
               </div>
             </section>

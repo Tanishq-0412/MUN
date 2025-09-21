@@ -4,7 +4,7 @@ export default function Homeextras() {
   return (
     <div>
       <section className="bg-gray-50  md:py-16 px-6">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-stretch gap-8 max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-stretch mb-10 lg:mb-none md:mb-none gap-8 max-w-6xl mx-auto">
 
 
           <div className="bg-white shadow-xl rounded-2xl p-8 w-full md:w-1/2 flex flex-col justify-center transition-all duration-300 hover:shadow-2xl">

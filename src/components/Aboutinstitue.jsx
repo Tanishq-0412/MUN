@@ -4,8 +4,8 @@ export default function Aboutinstitue() {
   return (
     <div>
       <section className="bg-white py-20 px-6 md:px-24">
-  <div className="max-w-6xl mx-auto text-left">
-    <h2 className="text-4xl font-extrabold text-gray-800 mb-6 border-b-4 inline-block border-black-400 pb-2">
+  <div className="max-w-6xl mx-auto text-center flex  flex-col items-center">
+    <h2 className="text-4xl font-extrabold text-gray-800 mb-6 border-b-4   w-fit border-black-400 pb-2">
       Institutions That Have Participated in SVVVIMUN
     </h2>
     <p className="text-lg text-gray-800 mb-12 max-w-3xl mx-auto">
