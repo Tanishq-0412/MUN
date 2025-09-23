@@ -47,7 +47,7 @@ export default function Navbar() {
     >
 
       <Link to='/'><div className="flex items-center z-50">
-        <img width={60} src={img} alt="Logo" className="rounded-lg" />
+        <img width={80} src={img} alt="Logo" className="rounded-lg" />
       </div></Link>
 
 

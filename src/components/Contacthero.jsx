@@ -1,5 +1,7 @@
 import React from 'react'
 import contact from '../assets/contact.jpg'
+import BlurText from "./BlurText";
+
 export default function Contacthero() {
   return (
     <div>
@@ -13,9 +15,13 @@ export default function Contacthero() {
                 <div className="absolute inset-0 bg-black opacity-80" />
               </div>
               <div className="relative z-10 flex items-center justify-center h-full px-4 text-center">
-                <h1 className="text-white  text-center   text-[4.8rem]    md:text-[8rem] lg:text-[13rem] md:text-[13rem]">
-                  Contact Us
-                </h1>
+                 <BlurText
+  text="Contact Us"
+  delay={200}
+  animateBy="letters"
+  direction="top"
+  className='text-white  text-center !font-[times]  text-[4.1rem]  leading-none     lg:text-[10rem] md:text-[10rem]'
+/>
               </div>
             </section>
       
