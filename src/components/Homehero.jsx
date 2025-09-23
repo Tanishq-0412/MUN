@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '../assets/img2.jpg'
+import img2 from '../assets/black bg.jpg'
 import BlurText from "./BlurText";
 
 export default function Homehero() {
@@ -11,7 +11,7 @@ export default function Homehero() {
                 alt="Hero"
                 className="h-full w-full object-cover"
               />
-              <div className="absolute p-5 inset-0 flex  items-center justify-center bg-black bg-opacity-60">
+              <div className="absolute p-5 inset-0 flex  items-center justify-center backdrop-blur-xs bg-black/40 bg-opacity-60">
 <BlurText
   text="SVVV IMUN"
   delay={200}

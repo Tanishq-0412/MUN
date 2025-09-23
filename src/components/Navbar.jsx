@@ -87,11 +87,13 @@ export default function Navbar() {
         {/* Hamburger menu for mobile */}
     
 
+       <Link className='hover:scale-110 transition-all duration-200 group' to="https://docs.google.com/forms/d/e/1FAIpQLSeU9hjAeNuoQAClS0yakrKA0zpbdMyqh9LOaBRAXYNmtdbBOw/viewform?usp=sharing&ouid=118079012721441868563">
         <button 
-         className={`ml-4 text-white px-5 py-2 rounded-full transition     ${opacity ? 'bg-black ' : 'bg-white !text-black'}
+         className={`ml-4 text-white border-1 group-hover:border-3 shadow-2xl border-[#521C0D] px-5 py-2 rounded-full transition  cursor-pointer    ${opacity ? 'bg-[#f8de7c] !text-[#521C0D]' : 'bg-[#f8de7c] !text-[#521C0D]'}
 `}>
-          REGISTER
+          Register
         </button>
+       </Link>
 
 
         <div className="md:hidden">
