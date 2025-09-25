@@ -2,6 +2,7 @@ import React from 'react'
 import img2 from '../assets/black bg.jpg'
 import BlurText from "./BlurText";
 
+
 export default function Homehero() {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function Homehero() {
   delay={200}
   animateBy="letters"
   direction="top"
-  className='text-white  text-center !font-[times]  text-[4.1rem]  leading-none     lg:text-[16rem] md:text-[16rem]'
+  className='text-white  text-center !font-[times]  text-[3.1rem]  leading-none     lg:text-[16rem] md:text-[16rem]'
 />
                 
               </div>
